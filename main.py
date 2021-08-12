@@ -12,7 +12,7 @@ from typing import List
 DATABASE_URL ="postgres://bkjpfqswtegltn:06a9417da7809a0e8b4ea738be4a2031dea0c758ce9324f042141a94857151a4@ec2-52-21-153-207.compute-1.amazonaws.com:5432/d79r3dq9p7dj97"
 
 
-
+ 
 
 host_server = os.environ.get('host_server','localhost')
 db_server_port= urllib.parse.quote_plus(str(os.environ.get('db_server_port','5432')))
